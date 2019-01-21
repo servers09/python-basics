@@ -1,24 +1,19 @@
 class MyClass:
-  x = 5
-p = MyClass()
-print(p.x)
+  x = 5 
 
 class Person:
   def __init__(self, name, age):
     self.name = name
     self.age = age
-p = Person("John", 36)
-print(p.name)
-print(p.age)
 
 class compare:
     def less_than(self,num1,num2):
-
         if num1 < num2:
             return True
         else:
             return False
     print(less_than("blank",3,5))
+ 
 
     def greater_than(self,num1,num2):
         if num1 > num2:
@@ -47,6 +42,13 @@ class odd_even_verify:
             return True
         else:
             return False
+        
+
+p = MyClass()
+print(p.x)
+p = Person("John", 36)
+print(p.name)
+print(p.age)
 odd_even = odd_even_verify(4)
 print(odd_even.bool_odd())
 print(odd_even.bool_even())
